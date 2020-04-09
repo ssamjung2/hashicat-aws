@@ -16,7 +16,7 @@ cat << EOM > /var/www/html/index.html
   <p>Here's a random joke at the time of apply:
 EOM
 
-curl -H "Accept: text/plain" https://icanhazdadjoke.com/ > /var/www/html/index.html 2>&1
+curl -H "Accept: text/plain" https://icanhazdadjoke.com/ > /var/www/html/index.html 2>/dev/null
 
 cat << EOM >> /var/www/html/index.html
   </p>
