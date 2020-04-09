@@ -15,7 +15,7 @@ cat << EOM > /var/www/html/index.html
   <center><h2>Doggies are the best world!  Cats can be nice, but they aren't dogs!</h2></center>
   <p>Welcome to ${PREFIX}'s app. Woot! I'm doing Terraform training for deploying and managing infrastructure as code. "You can do it better :)", said Gopi.
   Yes, I can; Yes, I most certainly can.</p>
-  <p>Here's a random joke:
+  <p>Here's a random joke at the time of apply:
 EOM
 
 cat var/www/html/joke >> /var/www/html/index.html
