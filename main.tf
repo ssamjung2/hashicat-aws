@@ -112,6 +112,7 @@ resource aws_instance "hashicat" {
     Name = "${var.prefix}-hashicat-instance"
     Billable = "true"
     Department = "DevOps-Gurus"
+    Workgroup = "WG12345"
   }
 }
 
